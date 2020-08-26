@@ -1,0 +1,10 @@
+---
+applications:
+- name: jangeunhwa-myadmin
+  memory: 512M
+  host: jangeunhwa-myadmin
+  domain: paas-ta.org
+  services:
+  - jangeunhwa-mysql-db
+  instances: 1
+  disk_quota: 512M
